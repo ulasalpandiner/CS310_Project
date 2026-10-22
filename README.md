@@ -10,7 +10,7 @@
 ### Group Members
 * **Ulas Alpandiner** (Student ID: 33831)
 * **Ramazan Yucel** (Student ID: 34056)
-* **Alper Kaan** (Student ID: 26625 )
+* **Alper Kaan Gozubuyuk** (Student ID: 26625 )
 
 
 ---
