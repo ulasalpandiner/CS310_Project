@@ -2,7 +2,7 @@
 
 **Course:** CS310 Mobile Application Development  
 **Project Title:** CampusMarket – Sabancı University Second-Hand Marketplace  
-**Group Number:** Group [Group Number]  
+**Group Number:** Group 14 
 **GitHub Repository Link:** https://github.com/ulasalpandiner/CS310_Project  
 
 ---
@@ -67,7 +67,3 @@ Sabancı University undergraduate and graduate students living on or commuting t
 
 ---
 
-## 5. Step 1 Team Responsibilities
-
-
----
