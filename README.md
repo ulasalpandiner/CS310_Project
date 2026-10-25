@@ -72,8 +72,8 @@ Sabancı University undergraduate and graduate students living on or commuting t
 
 | Member | Step 1 tasks | Planned development responsibilities |
 | :--- | :--- | :--- |
-| **Ulaş Alpandiner** | Set up the repository, add collaborators, prepare the README and Flutter .gitignore, and coordinate Step 1.[cite: 2] | Develop authentication and listing management; review code changes and resolve integration issues.[cite: 2] |
-| **Ramazan Yücel** | Describe data requirements, Firebase services, and potential technical challenges.[cite: 2] | Implement database operations and messaging; check error handling and debug backend-related issues.[cite: 2] |
-| **Alper Kaan Gözübüyük** | Prepare the app overview, target users, and feature scope; prepare and format the proposal PDF.[cite: 2] | Develop the home feed and search/filter screens; test user flows, identify bugs, and check UI consistency.[cite: 2] |
+| **Ulaş Alpandiner** | Set up the repository, add collaborators, prepare the README and Flutter .gitignore, and coordinate Step 1. | Develop authentication and listing management; review code changes and resolve integration issues. |
+| **Ramazan Yücel** | Describe data requirements, Firebase services, and potential technical challenges.[cite: 2] | Implement database operations and messaging; check error handling and debug backend-related issues. |
+| **Alper Kaan Gözübüyük** | Prepare the app overview, target users, and feature scope; prepare and format the proposal PDF. | Develop the home feed and search/filter screens; test user flows, identify bugs, and check UI consistency. |
 
-*Shared responsibilities: All members will contribute to coding, review each other's work, test the application, and review each submission. Development assignments are preliminary and may be adjusted as the project progresses.*[cite: 2]
+*Shared responsibilities: All members will contribute to coding, review each other's work, test the application, and review each submission. Development assignments are preliminary and may be adjusted as the project progresses.*
