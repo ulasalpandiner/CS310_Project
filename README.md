@@ -34,15 +34,14 @@ Sabancı University undergraduate and graduate students living on or commuting t
 ## 2. Features & Scope
 
 ### Core Features (Main MVP)
-* **Student Authentication:** Registration and sign-in restricted to `@sabanciuniv.edu` email accounts.
+* **Student Authentication:** Registration and sign-in using verified @sabanciuniv.edu email addresses.
+* **In-App Messaging:** Buyers and sellers exchange messages to arrange on-campus meetups. Messages are stored in the database and loaded when a conversation is opened or manually refreshed.
 * **Item Listing & Management:** Sellers can post photos, titles, prices, descriptions, categories, and item conditions. They can also edit or delete listings.
 * **Search & Category Filters:** Buyers can search for items by keywords and filter by price or category.
-* **In-App Direct Chat:** Real-time messaging between buyers and sellers to arrange local meetups safely.
 * **Home Feed:** Visual list showing active listings with photos and prices.
 
 ### Optional Features (Stretch Goals)
 * **Boosted Listings:** Highlight or pin posts to the top of category feeds.
-* **Payment Simulation:** A simple UI demo for secure payments.
 * **User Ratings:** Allow buyers and sellers to rate each other after trades.
 
 ---
@@ -55,7 +54,7 @@ Sabancı University undergraduate and graduate students living on or commuting t
 * **Backend Services:**
   * **Firebase Cloud Firestore:** Database for listings, user profiles, and chat messages.
   * **Firebase Storage:** Cloud storage for uploaded product photos.
-  * **Firebase Auth:** User login and authentication.
+  * **Firebase Authentication:** For account registration, email verification, and sign-in.
 
 ---
 
@@ -67,3 +66,14 @@ Sabancı University undergraduate and graduate students living on or commuting t
 
 ---
 
+## 5. Team Coordination and Contributions
+
+**Step 1 Coordinator:** Ulaş Alpandiner[cite: 2]
+
+| Member | Step 1 tasks | Planned development responsibilities |
+| :--- | :--- | :--- |
+| **Ulaş Alpandiner** | Set up the repository, add collaborators, prepare the README and Flutter .gitignore, and coordinate Step 1.[cite: 2] | Develop authentication and listing management; review code changes and resolve integration issues.[cite: 2] |
+| **Ramazan Yücel** | Describe data requirements, Firebase services, and potential technical challenges.[cite: 2] | Implement database operations and messaging; check error handling and debug backend-related issues.[cite: 2] |
+| **Alper Kaan Gözübüyük** | Prepare the app overview, target users, and feature scope; prepare and format the proposal PDF.[cite: 2] | Develop the home feed and search/filter screens; test user flows, identify bugs, and check UI consistency.[cite: 2] |
+
+*Shared responsibilities: All members will contribute to coding, review each other's work, test the application, and review each submission. Development assignments are preliminary and may be adjusted as the project progresses.*[cite: 2]
