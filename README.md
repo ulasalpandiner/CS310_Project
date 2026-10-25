@@ -60,7 +60,7 @@ Sabancı University undergraduate and graduate students living on or commuting t
 
 ## 4. Potential Technical Challenges
 
-* **Real-Time Messaging:** Setting up live chat streams in Flutter using Firebase without performance delays.
+* **Messaging and Error Handling:** Saving and retrieving messages in the correct order, and handling connection failures without losing user input.
 * **Image Optimization:** Compressing high-resolution photos taken on mobile phones before uploading to conserve bandwidth.
 * **State Management:** Managing login state and search filters smoothly across different Flutter screens.
 
