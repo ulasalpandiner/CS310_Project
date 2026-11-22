@@ -1,4 +1,50 @@
-# CS310 Project Step 1 Proposal: CampusMarket
+# CampusMarket | CS310 Group 14
+
+## Step 2.2 Flutter interface
+
+CampusMarket implements the approved marketplace screens from Step 2.1. The demo uses example accounts, listings and messages in memory. Signing out or restarting the app resets the demo session. Firebase integration is planned for Step 3.
+
+### Run the app
+
+Use **Flutter 3.47.9 stable** with **Dart 3.13.7**. Start an Android emulator or iOS simulator, then run these commands from the repository folder.
+
+```sh
+flutter pub get
+flutter devices
+flutter run
+```
+
+If multiple devices are available, use `flutter run -d <device-id>`. For a browser preview, use `flutter run -d chrome`.
+
+### Try the main flows
+
+1. Sign in with `student@sabanciuniv.edu` and a sample password such as `campus123`. Use `unverified@sabanciuniv.edu` to try the verification screen from login, or follow **Create an account**.
+2. Open a listing, try **Search listings & filters**, or open a conversation and send an example message.
+3. Use **+ Sell** to enter a listing. Choose at least one sample photo and fill out the required fields. The form shows field errors and asks for confirmation when the values are valid.
+4. In **My listings**, edit an item, mark it as sold or delete it. Sold items stay in My listings and leave the active feed and search results.
+
+### Code and checks
+
+- `lib/screens/` contains the account, listing, search and conversation screens. They use `Navigator`, `MaterialPageRoute` and `setState`.
+- `lib/models/listing.dart` defines the listing model and the example data. The feed lazily renders records with `SliverList.builder` and reusable listing cards.
+- `lib/theme.dart` and `lib/widgets/market_ui.dart` hold the shared colors, typography, spacing and widgets. The form uses `Form` and `TextFormField`.
+- Run `flutter analyze` and `flutter test` for static analysis and the widget checks, including portrait sizes of 320 × 568 and 430 × 932.
+
+The interface uses [Sabancı University's official color guide](https://www.sabanciuniv.edu/sites/default/files/2026-01/kurumsal-iletisim-kilavuzu-2025.pdf), a bundled [Roboto font](assets/fonts/OFL-Roboto.txt), and locally bundled synthetic demo listing photos. The headphones gallery also demonstrates an online image by C D-X, with a local photo available if the network image fails. [Photo credit](https://unsplash.com/photos/flatlay-photography-of-wireless-headphones-PDX_a_82obo)
+
+<details>
+<summary>Demo photo assets</summary>
+
+The four `*-photo.jpg` files in `assets/images/` were created with the built-in image generator. The shared prompt asked for realistic editorial resale photos, tactile surfaces, soft side light, a university blue and neutral palette, a centered product in a 4:3 frame, and no people, logos, text, or watermarks.
+
+- `textbook-photo.jpg`: a worn indigo calculus hardcover with an ivory page block and a faint geometry diagram on a pale blue table.
+- `desk-lamp-photo.jpg`: a used navy anglepoise lamp, lit gently on a sandstone desktop with a cream wall.
+- `dorm-chair-photo.jpg`: a compact used chair with a bent birch seat and navy legs on pale concrete.
+- `headphones-photo.jpg`: a pair of matte navy wireless headphones on a pale smoky blue surface.
+
+</details>
+
+## Step 1 proposal
 
 **Course:** CS310 Mobile Application Development  
 **Project Title:** CampusMarket – Sabancı University Second-Hand Marketplace  
